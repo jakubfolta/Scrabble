@@ -7,11 +7,13 @@ def scrabble_score(word):
   
   scoreTotal = []
   word = word.lower()
-  for
+  for letter in word:
+    scoreTotal.append(score[letter])
+  return sum(scoreTotal)
 
    
       
      
 
-print(scrabble_score('alFatofe'))
+print(scrabble_score('alFaqvzfe'))
     
