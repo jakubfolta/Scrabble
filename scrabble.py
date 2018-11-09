@@ -4,11 +4,17 @@ def scrabble_score(word):
          "l": 1, "o": 1, "n": 1, "q": 10, "p": 3, "s": 1, 
          "r": 1, "u": 1, "t": 1, "w": 4, "v": 4, "y": 4, 
          "x": 8, "z": 10}
-  scoreList = []
+  
+  scoreTotal = []
   for letter in word:
-    if letter == letter.lower or letter == letter.upper and letter in score:
-      scoreList.append(score.get(letter))
-  return scoreList
+    if letter == letter.lower():
+      print(letter)
+      scoreTotal.append(score[letter])
+      elif
+  return sum(scoreTotal)
+   
+      
+     
 
 print(scrabble_score('alFatofe'))
     
