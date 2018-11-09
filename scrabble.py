@@ -6,12 +6,9 @@ def scrabble_score(word):
          "x": 8, "z": 10}
   
   scoreTotal = []
-  for letter in word:
-    if letter == letter.lower():
-      print(letter)
-      scoreTotal.append(score[letter])
-      elif
-  return sum(scoreTotal)
+  word = word.lower()
+  for
+
    
       
      
